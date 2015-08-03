@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=1920"/>
+    <meta name="description"
+          content="Tizen Messageport Callee" />
+
+    <title>Tizen Messageport Callee</title>
+
+    <script type='text/javascript' src='$WEBAPIS/webapis/webapis.js'></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <h1>Tizen Messageport Callee</h1>
+
+    <div class="left">
+        <h2>Available buttons/actions:</h2>
+
+        <div>
+            RED - display Caller App<br>
+            0 - Clear logs
+        </div>
+
+        <fieldset>
+            <legend>Logs</legend>
+            <div class="logs" id="logs"></div>
+        </fieldset>
+    </div>
+    <div class="right">
+        <h2>Info</h2>
+
+        <p>
+            On application init LocalMessagePort is instantiated and listener added <br>
+            Press RED key to display Caller App and send message to Callee app using Callee LocalMessagePort
+        </p>
+    </div>
+
+
+</body>
+</html>

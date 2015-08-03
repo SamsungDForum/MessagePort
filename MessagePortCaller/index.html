@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=1920"/>
+    <meta name="description"
+          content="Tizen Messageport Caller" />
+
+    <title>Tizen Messageport Caller</title>
+
+    <script type='text/javascript' src='$WEBAPIS/webapis/webapis.js'></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <h1>Tizen Messageport Caller</h1>
+
+    <div class="left">
+        <h2>Available buttons/actions:</h2>
+
+        <div>
+            RED - Show Callee app<br>
+            YELLOW - Send message to Callee app<br>
+            0 - Clear logs
+        </div>
+
+        <fieldset>
+            <legend>Logs</legend>
+            <div class="logs" id="logs"></div>
+        </fieldset>
+    </div>
+    <div class="right">
+        <h2>Info</h2>
+
+        <p>
+            On application initialize RemoteMessagePort is requested<br>
+            MessagePort is instantiated in Callee App so ensure Callee App is already started.
+        </p>
+
+        <p>
+            Press Yellow to send message<br>
+            Press Red to show Callee app
+        </p>
+    </div>
+
+
+</body>
+</html>
